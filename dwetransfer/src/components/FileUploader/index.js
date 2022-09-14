@@ -20,7 +20,7 @@ export const FileUploader = ({setCids, setIpfsError, setSendingState}) => {
             setSendingState(true);
             const rootCid = await client.put(files);
             console.log("Successfully sent to IPFS");
-            console.log("https://" + rootCid + ".ipfs.dweb.link");
+            console.log("https://" + rootCid + ".ipfs.w3s.link");
             setCids([rootCid]);
         } catch {
             setIpfsError(true);
