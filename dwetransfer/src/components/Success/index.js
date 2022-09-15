@@ -15,7 +15,7 @@ export const Success = ({cids, setCids, setSendingState}) => {
                     Files have been sent to Web3.Storage & IPFS successfully
                 </Alert>
                 <ul> {cids.map(function(path, index) {
-                        return <li><a href={"https://" + path + ".ipfs.dweb.link" } >https://{path}.ipfs.dweb.link</a></li>
+                        return <li><a href={"https://" + path + ".ipfs.w3s.link" } >https://{path}.ipfs.dweb.link</a></li>
                     })}</ul>
                 <Button
                         variant='success'
